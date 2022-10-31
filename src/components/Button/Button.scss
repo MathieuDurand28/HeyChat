@@ -8,6 +8,7 @@
     text-align: center;
     border-radius: 20px;
     color: whitesmoke;
+    box-shadow: 2px 2px 30px #fb2ea3;
     cursor: pointer;
     &:hover{
         animation: 0.6s buttonTransition;
@@ -34,5 +35,8 @@
 
   @keyframes buttonBackGroundColor {
     0%   {background-image: linear-gradient(to left bottom, #fb2ea3, #e949c0, #d05fd7, #b272e9, #8f81f5, #6994ff, #3ea4ff, #00b1ff, #00c5ff, #00d8ff, #00e9f9, #0df9eb);}
-    100% { background-image: linear-gradient(to left bottom, #d668a7, #cc6cb9, #be73cb, #a97bdc, #8e83ea, #7091f5, #4b9dfb, #00a8fd, #00b8f8, #00c5ec, #3ed1df, #70dad3);}
+    100% { 
+      background-image: linear-gradient(to left bottom, #d668a7, #cc6cb9, #be73cb, #a97bdc, #8e83ea, #7091f5, #4b9dfb, #00a8fd, #00b8f8, #00c5ec, #3ed1df, #70dad3);
+      box-shadow: 2px 2px 30px #6994ff;
+    }
   }
