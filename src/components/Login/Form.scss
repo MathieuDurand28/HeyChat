@@ -17,7 +17,7 @@
             border-radius: 20px;
             border: none;
             background-color: #81ADFF;
-            color: rgb(251, 216, 186);
+            color: rgb(40, 38, 36);
             padding-left: 10px;
             text-align: center;
         }
@@ -27,8 +27,11 @@
         color: #86A8E7;
     }
     .brand {
+        box-shadow: 2px 2px 50px whitesmoke;
+        border-radius: 100px;
+        background-color:#90fdf7 ;
         font-family: DatterMatter, Arial, Helvetica, sans-serif;
-        color: #6b68c9;
+        color: #a5a2f3;
         font-size: 60px;
     }
     .alternative-login{
@@ -37,7 +40,7 @@
         cursor: pointer;
         transition-duration: 0.2s;
         &:hover {
-            color: pink;
+            color: #a5a2f3;
             text-decoration: underline;
         }
     }
