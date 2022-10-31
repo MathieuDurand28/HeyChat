@@ -1,0 +1,38 @@
+.button{
+    background-image: linear-gradient(to left bottom, #fb2ea3, #e949c0, #d05fd7, #b272e9, #8f81f5, #6994ff, #3ea4ff, #00b1ff, #00c5ff, #00d8ff, #00e9f9, #0df9eb);
+    height: max-content;
+    width: max-content;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:500;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+    &:hover{
+        animation: 0.6s buttonTransition;
+        transition-duration: 0.6s;
+        color: white;
+        animation: buttonBackGroundColor 0.6s forwards;
+    }
+    &.button-granted:hover{
+      color: lightgreen;
+    }
+    &.button-warning:hover{
+      color: orange;
+    }
+    &.button-alert:hover{
+      color: lightgreen;
+    }
+}
+
+@keyframes buttonTransition {
+    0%   {box-shadow:5px 20px 3px #fb2ea3;}
+    50%  {box-shadow: 1px 1px 5px #6994ff;}
+    100% {box-shadow: 15px 20px 30px transparent;}
+  }
+
+  @keyframes buttonBackGroundColor {
+    0%   {background-image: linear-gradient(to left bottom, #fb2ea3, #e949c0, #d05fd7, #b272e9, #8f81f5, #6994ff, #3ea4ff, #00b1ff, #00c5ff, #00d8ff, #00e9f9, #0df9eb);}
+    100% { background-image: linear-gradient(to left bottom, #d668a7, #cc6cb9, #be73cb, #a97bdc, #8e83ea, #7091f5, #4b9dfb, #00a8fd, #00b8f8, #00c5ec, #3ed1df, #70dad3);}
+  }

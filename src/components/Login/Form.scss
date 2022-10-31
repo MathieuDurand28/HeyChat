@@ -1,0 +1,45 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        input{
+            margin-bottom: 25px;
+            margin-top: 15px;
+            width: 250px;
+            height: 20px;
+            border-radius: 20px;
+            border: none;
+            background-color: #81ADFF;
+            color: rgb(251, 216, 186);
+            padding-left: 10px;
+            text-align: center;
+        }
+        font-family: "Rosmatika", sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        color: #86A8E7;
+    }
+    .brand {
+        font-family: DatterMatter, Arial, Helvetica, sans-serif;
+        color: #6b68c9;
+        font-size: 60px;
+    }
+    .alternative-login{
+        font-size: 15px;
+        color: grey;
+        cursor: pointer;
+        transition-duration: 0.2s;
+        &:hover {
+            color: pink;
+            text-decoration: underline;
+        }
+    }
+    
+}
