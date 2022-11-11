@@ -2,7 +2,6 @@ import "./Form.scss"
 import {Button} from "../Button/Button"
 import "animate.css"
 
-
 export const Form = () => {
     return (
         <div className="login-form">
